@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Moky Project.exe" version="1.0.0.0" publicKeyToken="4dc0c001ea48c53c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Moky Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Moky Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Moky Project.exe" size="194568">
+      <assemblyIdentity name="Moky Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2RgLiYYC/AXjgXFAVTmFUkESkmxDAckKeg5q6BI2jRo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Moky Project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-6T4KVJH\Samir Ahmed" issuerKeyHash="576b15100bd18e311653c9a65b62c779c9bceb03" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZGIszm0CMuNMVmxyaC/vt5HEEoRZlq/YCPnuWE2CgOw=</DigestValue></Reference></SignedInfo><SignatureValue>fAjYCdeT6UvsC6hdt9JscCrTxCJooJJKnnC1ImsEisX2TR8dv6Z8xZr6YhvIl5TvS4zvQU/QBwJoAOHLXYX6509jGMXNiKs6eofLWrjz5J+j7qhY3W8wxY4mxyc/MvSIPoUAbYKg7QbXR5QsSI9a4HYbFfeYHzm2zZlqWUbY/u0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uFZKZpK1jnMxLLN6qgFmzEROxW4Sv2u1nQi8P/VFWSigROT0WJepXGDbnLwZif86oiiesAGfqKYuJQf4IQtynPWhKguF3y5h4OeRFRsvdOAxdu8SCcdQZwCCdDN7vFCnfp/5I0dhIgLbNaEUDOZj/lhnaT/Ik9atR33Rmjko+kU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ec80824d58eef908d8af96598412c491b7ef2f68726c564ce332026dce2c6264" Description="" Url=""><as:assemblyIdentity name="Moky Project.exe" version="1.0.0.0" publicKeyToken="4dc0c001ea48c53c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-6T4KVJH\Samir Ahmed</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hVXJXna2t1ynQBvkSyNKNl1ZPc94hOBC/NtdydedpNk=</DigestValue></Reference></SignedInfo><SignatureValue>dTJ+mCkKzIDuNXRoWuvEgovvVwJS96IxB2MP0qyj7qQfHsbFvqjAzTvSil2VJEmkaudWeJRTf/e59esyHaomgrzBVvJN1bVsPWR4/rDJSkBol19vXEf8BDSMY+WjXSDsA8MOxvuTqkwVVr6s5dHQDNGwMlYhL9yO3ozUh3qqJKQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uFZKZpK1jnMxLLN6qgFmzEROxW4Sv2u1nQi8P/VFWSigROT0WJepXGDbnLwZif86oiiesAGfqKYuJQf4IQtynPWhKguF3y5h4OeRFRsvdOAxdu8SCcdQZwCCdDN7vFCnfp/5I0dhIgLbNaEUDOZj/lhnaT/Ik9atR33Rmjko+kU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQKVrc36scfIxIFagp+57dZjANBgkqhkiG9w0BAQsFADBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADYAVAA0AEsAVgBKAEgAXABTAGEAbQBpAHIAIABBAGgAbQBlAGQwHhcNMjQwOTAxMDIzOTA1WhcNMjUwOTAxMDgzOTA1WjBBMT8wPQYDVQQDHjYARABFAFMASwBUAE8AUAAtADYAVAA0AEsAVgBKAEgAXABTAGEAbQBpAHIAIABBAGgAbQBlAGQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALhWSmaStY5zMSyzeqoBZsxETsVuEr9rtZ0IvD/1RVkooETk9FiXqVxg25y8GYn/OqIonrABn6imLiUH+CELcpz1oSoLhd8uYeDnkRUbL3TgMXbvEgnHUGcAgnQze7xQp36f+SNHYSIC2zWhFAzmY/5YZ2k/yJPWrUd90Zo5KPpFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAgEvwKwDraq1YbPG9hzgRhjoNnFzrkYoipvTS5kPNFuLMY3oPHWMRWe1bNTzbRTItPsxEGuM9V0WhFkgUyz1C0xu5oCWSw1c4HimYU/+zpSKC8f+8vazep8rtbSiiyZ1+MBDC99cxXy3flNCAAPhCaHNZLXSCIO0tXWTtP8rXHl8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

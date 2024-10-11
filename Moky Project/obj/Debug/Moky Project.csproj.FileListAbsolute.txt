@@ -1,0 +1,14 @@
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\bin\Debug\Moky Project.exe.config
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\bin\Debug\Moky Project.exe
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\bin\Debug\Moky Project.pdb
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.csproj.AssemblyReference.cache
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky_Project.Form1.resources
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky_Project.Properties.Resources.resources
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.csproj.GenerateResource.cache
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.csproj.CoreCompileInputs.cache
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.exe
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.pdb
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\bin\Debug\Moky Project.exe.manifest
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\bin\Debug\Moky Project.application
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.exe.manifest
+D:\Programming 2024\C#\C# Assignments_ABOHADHOUD_Course 14\Moky Project\obj\Debug\Moky Project.application
