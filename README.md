@@ -1,4 +1,4 @@
-# Fawry System Management - Full Stack OOP Project
+# Fawry Management System - Full Stack OOP Project
 
 ![Main Project Image](https://raw.githubusercontent.com/SamirAhmedElDod/Fawry-Project----Windows-Form-App-With-Database/master/Moky%20Project/Resources/Fawry.png)
 
